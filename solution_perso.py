@@ -1,4 +1,3 @@
-# return cc without spaces
 def erase(cc):
     stringList = []
     i = 0
@@ -7,7 +6,7 @@ def erase(cc):
             stringList.append(cc[i])
             i+=1
         else:
-            if i < len(cc) and cc[i+1] == " ":
+            if i < len(cc)-1 and cc[i+1] == " ":
                 while i < len(cc) and cc[i] == " ":
                     stringList.append(" ")
                     i+=1
@@ -17,4 +16,4 @@ def erase(cc):
     return "".join(stringList)
             
     
-print(erase("|"+"Cou cou  J M  B  ")+"|")
+print("|"+erase("Cou cou J   M  B   ")+"|")
