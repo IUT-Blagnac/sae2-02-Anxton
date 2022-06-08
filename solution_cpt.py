@@ -1,5 +1,3 @@
-from test import sample_tests
-
 # return cc without spaces
 def erase(cc):
     stringList = []
