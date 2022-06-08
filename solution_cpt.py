@@ -1,4 +1,6 @@
-# return string without spaces
+from test import sample_tests
+
+# return cc without spaces
 def erase(cc):
     stringList = []
     cpt = 0
@@ -13,3 +15,6 @@ def erase(cc):
     if cpt > 1:
         stringList += [" "]*cpt
     return "".join(stringList)
+            
+sample_tests()
+print("|"+erase("   a a  ")+"|")
