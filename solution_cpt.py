@@ -16,5 +16,4 @@ def erase(cc):
         stringList += [" "]*cpt
     return "".join(stringList)
             
-sample_tests()
 print("|"+erase("   a a  ")+"|")
