@@ -1,15 +1,5 @@
-# return string without spaces
+import re
 def erase(cc):
-    stringList = []
-    cpt = 0
-    for char in cc:
-        if char != " ":
-            if cpt > 1:
-                stringList += [" "]*cpt
-            stringList.append(char)
-            cpt = 0
-        else:
-            cpt+=1
-    if cpt > 1:
-        stringList += [" "]*cpt
-    return "".join(stringList)
+    # supprime : espace seul en début de ligne | espace entre deux lettres | espace seul en fin de ligne
+    # utilisation de lookbehinds/lookaheads pour éviter les problèmes de chevauchement
+    return re.sub(r'^ (?=[^ ])|(?<=[^ ]) (?=[^ ])|(?<=[^ ]) $', '', cc)

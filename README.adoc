@@ -136,9 +136,19 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 
 [options="header"]
 |==========================================================================
-| #    | lien                                        | langage  | catégorie
-| 1    | link:src/main/java/eraser/Eraser.java[ici]  | Java     | Simplicité
-| ...  | ...                                         | ...      | ...      
+| #    | lien                                                    | langage  | catégorie
+| 1    | link:solution_regex.py[regex]                           | Python   | Efficacité
+| 2    | link:src/main/java/eraser/EraserRegex.java[regex]       | Java     | Efficacité
+| 3    | link:solution_cpt.py[compteur]                          | C        | Efficacité
+| 4    | link:solution_en_place.c[en_place]                      | C        | Sobriété numérique
+| 5    | link:solution_regex.py[regex]                           | Python   | Simplicité
+| 6    | link:solution_cpt.py[compteur]                          | Python   | Efficacité
+| 7    | link:src/main/java/eraser/EraserCompteur.java[compteur] | Java     | Efficacité
+| 8    | link:solution_suppr.py[suppression]                     | Python   | Simplicité      
+| 9    | link:solution_ajout.py[ajout]                           | Python   | Simplicité
+| 997  | link:solution_comprehension.py[compréhension]           | Python   | Expérimental      
+| 998  | link:solution_recursif.py[recursif]                     | Python   | Expérimental      
+| 999  | link:solution_while.py[while]                           | Python   | Expérimental      
 |==========================================================================
 
 === Phase 2 (deadline : **vendredi 16 juin** à minuit)
@@ -152,14 +162,12 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Pré-requis
 
-- Java v.x.y.z
-- ...
+- Python
 
 === Reproductibilité
 
-- Pour reproduire mon analyse :
-. Installez X
-. Lancez Y
+- Pour reproduire mon analyse des algorithmes sur Python :
+. Lancez link:analyse.py[analyse.py]
 . ...
 
 === Références

@@ -1,20 +1,14 @@
-# return cc without spaces
-def erase(cc):
-    stringList = []
-    i = 0
-    while i < len(cc)-1:
-        if cc[i] != " ":
-            stringList.append(cc[i])
-            i+=1
-        else:
-            while cc[i+1] == " " or i < len(cc):
-                stringList.append(" ")
-                i+=1
-    
-    return stringList
+# même algorithme que solution_compteur.py sous forme récursive
+def erase(cc, spaces=0):
+    if cc == "":
+        return ""
+    # espace : on le note
+    if cc[0] == " ":
+        return erase(cc[1:], spaces+1)
+    # lettre : si on a compté plus d'un espace, on les met
+    if spaces > 1:
+        return " "*spaces + cc[0] + erase(cc[1:])
+    # lettre et pas plus d'un espace
+    return cc[0] + erase(cc[1:])
             
     
-print(erase(" a a l l o  o "))
-
-
-# CONTINUE ? SKIP UN ESPACE LORSQUE ON VIENT DE LE DETECTER
