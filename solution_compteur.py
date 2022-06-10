@@ -1,3 +1,4 @@
+
 def erase(cc):
     stringList = []
     spaces = 0
