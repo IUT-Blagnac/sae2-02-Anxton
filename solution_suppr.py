@@ -1,3 +1,4 @@
+# duplication entière puis on supprime les espaces seuls, inverse de solution_ajout.py
 def erase(cc):
     if cc == " " or cc == "":
         return ""

@@ -1,5 +1,6 @@
+# on part d'une liste vide et on la remplit sans les espaces, inverse de solution_suppr.py
 def erase(cc):
-    if cc == '' or cc == ' ':
+    if cc == '':
         return ''
     
     stringList = []
