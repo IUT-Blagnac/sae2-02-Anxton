@@ -139,7 +139,7 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 | #    | lien                                                    | langage  | catégorie
 | 1    | link:solution_regex.py[regex]                           | Python   | Efficacité
 | 2    | link:solution_compteur.py[compteur]                     | Python   | Efficacité
-| 3    | link:src/main/java/eraser/EraserRegex.java[regex] WIP      | Java     | Efficacité
+| 3    | link:src/main/java/eraser/EraserRegex.java[regex]       | Java     | Efficacité
 | 4    | link:src/main/java/eraser/EraserCompteur.java[compteur] WIP | Java     | Efficacité
 | 5    | link:solution_compteur.c[compteur]  WIP                    | C        | Efficacité
 | 6    | link:solution_en_place.c[en_place]  WIP                    | C        | Sobriété numérique
