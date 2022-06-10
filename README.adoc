@@ -138,13 +138,13 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 |==========================================================================
 | #    | lien                                                    | langage  | catégorie
 | 1    | link:solution_regex.py[regex]                           | Python   | Efficacité
-| 2    | link:src/main/java/eraser/EraserRegex.java[regex]       | Java     | Efficacité
-| 3    | link:solution_compteur.py[compteur]                     | C        | Efficacité
-| 4    | link:solution_en_place.c[en_place]                      | C        | Sobriété numérique
-| 5    | link:solution_regex.py[regex]                           | Python   | Simplicité
-| 6    | link:solution_compteur.py[compteur]                     | Python   | Efficacité
-| 7    | link:src/main/java/eraser/EraserCompteur.java[compteur] | Java     | Efficacité
-| 8    | link:solution_suppr.py[suppression]                     | Python   | Simplicité      
+| 2    | link:solution_compteur.py[compteur]                     | Python   | Efficacité
+| 3    | link:src/main/java/eraser/EraserRegex.java[regex]       | Java     | Efficacité
+| 4    | link:src/main/java/eraser/EraserCompteur.java[compteur] | Java     | Efficacité
+| 5    | link:solution_compteur.c[compteur]                      | C        | Efficacité
+| 6    | link:solution_en_place.c[en_place]                      | C        | Sobriété numérique
+| 7    | link:solution_regex.py[regex]                           | Python   | Simplicité
+| 8    | link:solution_suppr.py[suppression]                     | Python   | Simplicité
 | 9    | link:solution_ajout.py[ajout]                           | Python   | Simplicité
 | 997  | link:solution_comprehension.py[compréhension]           | Python   | Expérimental      
 | 998  | link:solution_recursif.py[recursif]                     | Python   | Expérimental      
