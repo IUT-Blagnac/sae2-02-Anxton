@@ -1,6 +1,10 @@
 # même algorithme que solution_compteur.py sous forme récursive
 def erase(cc, spaces=0):
+    # cas d'arrêt
     if cc == "":
+        # on regarde s'il reste des espaces lorsqu'on arrête
+        if spaces > 1:
+            return " "*spaces
         return ""
     # espace : on le compte
     if cc[0] == " ":
