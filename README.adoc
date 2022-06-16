@@ -161,6 +161,7 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 === Pré-requis
 
 - Python
+- Java
 
 === Reproductibilité
 
