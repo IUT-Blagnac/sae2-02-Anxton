@@ -1,7 +1,7 @@
-package eraser;
+package algos;
 
 
-public class Eraser {
+public class Sobriete92 {
 	//supprime les espaces non consécutifs
     public static String erase(String str) {
     	/**
