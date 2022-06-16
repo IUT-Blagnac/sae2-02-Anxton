@@ -168,6 +168,7 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 - Pour reproduire ma vérification des algorithmes :
 . Lancez link:analyse/verification.py[ma vérification Python]
 . Lancez link:analyse/Verification.java[ma vérification Java]
+. Lancez link:analyse/verification.c[ma vérification C] `gcc .\verification.c .\algos\sobriete76.c -o verification`
 
 === Références
 
