@@ -164,9 +164,9 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Reproductibilité
 
-- Pour reproduire mon analyse des algorithmes sur Python :
-. Lancez link:analyse.py[analyse.py]
-. ...
+- Pour reproduire ma vérification des algorithmes :
+. Lancez link:analyse/verification.py[ma vérification Python]
+. Lancez link:analyse/Verification.java[ma vérification Java]
 
 === Références
 
