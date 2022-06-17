@@ -1,0 +1,47 @@
+= Rapport - Catégorie sobriété
+XU Anton - 1B - BUT Informatique 2021-2022
+
+link:rapport_efficacite.adoc[Catégorie efficacité] +
+link:rapport_simplicite.adoc[Catégorie simplicité]
+
+== Comparaison des algorithmes
+
+=== Test fonctionnel
+
+link:../analyse/verification.py[Programme de vérification Python] +
+link:../analyse/Verification.java[Programme de vérification Java] +
+link:../analyse/verification.c[Programme de vérification C] +
+
+sobriete76.c ❌ +
+Sobriete92.java ❌ +
+sobriete102.py ✅
+
+=== Ressources
+
+- sobriete102.py +
++regex
+
+
+== Classement
+
+Seulement l'algorithme 102 fonctionne parmi les 3.
+
+[cols="1,2,2"]
+|===
+|Evaluation |Algorithme |Sobriété
+
+
+|5
+|sobriete102.py
+|{plus}
+
+|1
+|Sobriete92.java
+|Ne passe pas les tests
+
+|1
+|sobriete76.c
+|Ne passe pas les tests
+
+
+|===

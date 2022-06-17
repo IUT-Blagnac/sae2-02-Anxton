@@ -1,6 +1,6 @@
 package eraser;
 
-public class Eraser {
+public class EraserRegex {
     public static String erase(String str) {
         return str.replaceAll("(?<! ) (?! )", "");
     }

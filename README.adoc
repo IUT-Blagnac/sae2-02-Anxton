@@ -35,12 +35,22 @@ endif::[]
 
 == Auteur(s)
 
+=== Du sujet...
 - Jean-Michel Bruel (Université de Toulouse), mailto:bruel@irit.fr[bruel@irit.fr]
 - Version: 2022.05 (BUT1 2022)
 //- Kata length: 12 hours
 - Durée :  15 heures (9 créneaux TP + 1 cours)
 
-// == Objectives
+=== De la solution...
+
+* LAST NAME : XU
+* First name : Anton
+* TD group : 
+- [x] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+
 == Objectifs
 
 L'objectif de cette SAÉ (**S**ituation d'**A**pprentissage et d'**É**valuation) est d'approfondir la réflexion sur l'approche algorithmique des problèmes rencontrés pendant les phases de développement. (cf. link:docs/sae2.02.pdf[]).
@@ -126,9 +136,17 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 
 [options="header"]
 |==========================================================================
-| #    | lien                                        | langage  | catégorie
-| 1    | link:src/main/java/eraser/Eraser.java[ici]  | Java     | Simplicité
-| ...  | ...                                         | ...      | ...      
+| #    | lien                                                    | langage  | catégorie
+| 1    | link:solution_regex.py[regex]                           | Python   | Efficacité
+| 2    | link:solution_compteur.py[compteur]                     | Python   | Efficacité
+| 3    | link:src/main/java/eraser/EraserRegex.java[regex]       | Java     | Efficacité
+| 5    | link:solution_en_place.c[en_place]  (ne fonctionne pas)                    | C        | Sobriété numérique
+| 6    | link:solution_regex.py[regex]                           | Python   | Simplicité
+| 7    | link:solution_suppr.py[suppression]                     | Python   | Simplicité
+| 8    | link:solution_ajout.py[ajout]                           | Python   | Simplicité
+| 997  | link:solution_comprehension.py[compréhension]           | Python   | Expérimental      
+| 998  | link:solution_recursif.py[recursif]                     | Python   | Expérimental      
+| 999  | link:solution_while.py[while]                           | Python   | Expérimental      
 |==========================================================================
 
 === Phase 2 (deadline : **vendredi 16 juin** à minuit)
@@ -142,20 +160,27 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Pré-requis
 
-- Java v.x.y.z
-- ...
+- Python
+- Java
+- C
 
 === Reproductibilité
 
-- Pour reproduire mon analyse :
-. Installez X
-. Lancez Y
-. ...
+- Pour reproduire mes vérifications des algorithmes :
+. Lancez link:analyse/verification.py[ma vérification Python]
+. Lancez link:analyse/Verification.java[ma vérification Java]
+. Lancez link:analyse/verification.c[ma vérification C] : +
+    `gcc .\verification.c .\algos\sobriete76.c -o verification` +
+    `.\verification.exe`
 
-=== Références
+- Pour reproduire mon analyse des efficacités des algorithmes Java :
+. Lancez link:analyse/Analyse.java[mon analyse Java]
 
-- link:http://xyz[Mon super outil XYZ]
-- ...
+=== Rapports
+
+link:rapport/rapport_efficacite.adoc[Catégorie efficacité] +
+link:rapport/rapport_simplicite.adoc[Catégorie simplicité] +
+link:rapport/rapport_sobriete.adoc[Catégorie sobriété]
 
 == Généralités, notation de la SAÉ et résultat du concours
 

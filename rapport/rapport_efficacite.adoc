@@ -1,0 +1,77 @@
+= Rapport - Catégorie efficacité
+XU Anton - 1B - BUT Informatique 2021-2022
+
+link:rapport_simplicite.adoc[Catégorie simplicité] +
+link:rapport_sobriete.adoc[Catégorie sobriété]
+
+== Comparaison des algorithmes
+
+=== Test fonctionnel
+
+link:../analyse/verification.py[Programme de vérification Python] +
+link:../analyse/Verification.java[Programme de vérification Java]
+
+efficacite21.py ❌ +
+Efficacite29.java ✅ +
+efficacite46.py ❌ +
+Efficacite135.java ✅
+
+=== Test d'efficacité
+[cols="1,1,1"]
+|===
+|Longueur de chaine |Efficacite29.java |Efficacite135.java
+
+|500 caractères
+|[green]*1 ms*
+|10 ms
+
+|50000 caractères
+|200 ms
+|[green]*120 ms*
+
+|100000 caractères
+|0.53 seconde
+|[green]*0.42 seconde*
+
+|500000 caractères
+|[green]*6.93 secondes*
+|8.18 secondes
+
+|1000000 caractères
+|[green]*28.75 secondes*
+|33.23 secondes
+
+
+|===
+
+== Classement
+
+[cols="1,2,2,2,2"]
+|===
+|Evaluation |Algorithme |Temps d'exécution sur chaines courtes |Temps d'exécution sur chaines moyennes |Temps d'exécution sur chaines longues
+
+|5
+|Efficacite29.java
+|++
+|-
+|+
+
+|4
+|Efficacite135.java
+|-
+|+
+|-
+
+|1
+|efficacite21.py
+3+|Ne passe pas les tests
+
+
+
+|1
+|efficacite46.py
+3+|Ne passe pas les tests
+
+
+
+|===

@@ -1,0 +1,1 @@
+char* erase(const char* chaine);
