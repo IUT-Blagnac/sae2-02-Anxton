@@ -176,10 +176,11 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 - Pour reproduire mon analyse des efficacités des algorithmes Java :
 . Lancez link:analyse/Analyse.java[mon analyse Java]
 
-=== Références
+=== Rapports
 
-- link:http://xyz[Mon super outil XYZ]
-- ...
+link:rapport_efficacite.adoc[Catégorie efficacité] +
+link:rapport_simplicite.adoc[Catégorie simplicité] +
+link:rapport_sobriete.adoc[Catégorie sobriété]
 
 == Généralités, notation de la SAÉ et résultat du concours
 
