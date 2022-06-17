@@ -17,7 +17,8 @@ def test(erase):
         if erase(' a a a a ') != 'aaaa': ok = False
         if ok: print('✅') # Fonctionne !
         else: print('❌') # Ne fonctionne pas comme attendu
-    except:
+    except Exception as e:
+        print(e)
         print("💀") # Erreur levée
 
 print("efficacite21:")
