@@ -1,5 +1,8 @@
-= Rapport - Catégorie efficacité
+= Rapport - Catégorie simplicité
 XU Anton - 1B - BUT Informatique 2021-2022
+
+link:rapport_efficacite.adoc[Catégorie efficacité] +
+link:rapport_sobriete.adoc[Catégorie sobriété]
 
 == Comparaison des algorithmes
 
@@ -33,9 +36,9 @@ simplicite169.py ❌
 +Rien à signaler
 
 - simplicite160.py +
--Nom de fonction non respecté (bonmot2)
--mot[:0] et "" sont des chaines vides dans tous les cas et il y a de multiples occurences de concaténations de chaines de caractères vides dans le code +
--Noms de variables non intuitifs +
+-Nom de fonction non respecté ("bonmot2") +
+-mot[:0] et "" sont des chaines vides, il y a de multiples occurences de concaténations de chaines de caractères vides dans le code +
+-Nom de variable non intuitif ("ajout")
 
 == Classement
 
