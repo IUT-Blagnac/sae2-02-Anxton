@@ -1,8 +1,7 @@
-package eraser;
-
+package algos;
 import java.lang.reflect.Field;
 
-public class Eraser {
+public class Efficacite135 {
 
     public static String erase(String str) {
         String result = "";
