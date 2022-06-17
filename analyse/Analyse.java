@@ -6,8 +6,6 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Random;
 
-import algos.Efficacite135;
-
 public class Analyse {
     public static void main(String[] args) {
         String alphabet = "abcdefghijklmnopqrstuvwxyz        ";

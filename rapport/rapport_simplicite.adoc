@@ -1,0 +1,26 @@
+= Rapport - Catégorie efficacité
+XU Anton - 1B - BUT Informatique 2021-2022
+
+== Comparaison des algorithmes
+
+=== Test fonctionnel
+
+link:../analyse/verification.py[Programme de vérification Python]
+
+simplicite86.py 💀 +
+simplicite118.py 💀 +
+simplicite154.py ✅ +
+simplicite160.py ✅ +
+simplicite169.py ❌
+
+=== Lisibilité
+
+=== Qualité du code
+
+== Classement
+
+[cols="1,2,2,2,2"]
+|===
+|Evaluation |Algorithme |Temps d'exécution sur chaines courtes |Temps d'exécution sur chaines moyennes |Temps d'exécution sur chaines longues
+
+|===
