@@ -166,7 +166,7 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Reproductibilité
 
-- Pour reproduire ma vérification des algorithmes :
+- Pour reproduire mes vérifications des algorithmes :
 . Lancez link:analyse/verification.py[ma vérification Python]
 . Lancez link:analyse/Verification.java[ma vérification Java]
 . Lancez link:analyse/verification.c[ma vérification C] : +
