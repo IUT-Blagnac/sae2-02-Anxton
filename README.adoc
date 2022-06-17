@@ -178,9 +178,9 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Rapports
 
-link:rapport_efficacite.adoc[Catégorie efficacité] +
-link:rapport_simplicite.adoc[Catégorie simplicité] +
-link:rapport_sobriete.adoc[Catégorie sobriété]
+link:rapport/rapport_efficacite.adoc[Catégorie efficacité] +
+link:rapport/rapport_simplicite.adoc[Catégorie simplicité] +
+link:rapport/rapport_sobriete.adoc[Catégorie sobriété]
 
 == Généralités, notation de la SAÉ et résultat du concours
 
