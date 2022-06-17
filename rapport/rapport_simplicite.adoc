@@ -15,12 +15,56 @@ simplicite169.py ❌
 
 === Lisibilité
 
+- simplicite154.py +
++Utilisation simple et concise d'un regex +
++Commenté et explique la spécificité et la logique du regex
+
+
+- simplicite160.py +
+{plus}Sauts de ligne entre les bouts de codes + 
+-Code difficile à appréhender +
+-Ligne 7 : `mot = mot[:0] + "" + mot[ 1:]` -> présence de code littéralement inutile et donc illisible + 
+-Aucun commentaire +
+-Espaces irréguliers : ajout += 2 / taille+=1
+
 === Qualité du code
+
+- simplicite154.py +
++Rien à signaler
+
+- simplicite160.py +
+-Nom de fonction non respecté (bonmot2)
+-mot[:0] et "" sont des chaines vides dans tous les cas et il y a de multiples occurences de concaténations de chaines de caractères vides dans le code +
+-Noms de variables non intuitifs +
 
 == Classement
 
-[cols="1,2,2,2,2"]
+[cols="1,2,2,2"]
 |===
-|Evaluation |Algorithme |Temps d'exécution sur chaines courtes |Temps d'exécution sur chaines moyennes |Temps d'exécution sur chaines longues
+|Evaluation |Algorithme |Lisibilité |Qualité du code
+
+|5
+|simplicite154.py
+|{plus}{plus}{plus}
+|{plus}
+
+|3
+|simplicite160.py
+|---
+|---
+
+
+|1
+|simplicite169.py
+2+|Ne passe pas les tests
+
+
+|0
+|simplicite86.py
+2+|Lève une erreur à l'exécution
+
+|0
+|simplicite118.py
+2+|Lève une erreur à l'exécution
 
 |===
