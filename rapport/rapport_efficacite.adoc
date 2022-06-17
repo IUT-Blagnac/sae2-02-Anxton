@@ -1,0 +1,14 @@
+= Rapport - Catégorie efficacité
+XU Anton - 1B - BUT Informatique 2021-2022
+
+== Test des algorithmes
+
+=== Test fonctionnel
+
+efficacite21.py ❌+
+Efficacite29.java ✅+
+efficacite46.py ❌+
+Efficacite135.java ✅
+
+=== Test d'efficacité
+
