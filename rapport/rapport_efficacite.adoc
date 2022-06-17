@@ -1,7 +1,7 @@
 = Rapport - Catégorie efficacité
 XU Anton - 1B - BUT Informatique 2021-2022
 
-== Test des algorithmes
+== Comparaison des algorithmes
 
 === Test fonctionnel
 
