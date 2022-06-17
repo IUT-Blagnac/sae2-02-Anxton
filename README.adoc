@@ -162,6 +162,7 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 - Python
 - Java
+- C
 
 === Reproductibilité
 
@@ -171,6 +172,9 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 . Lancez link:analyse/verification.c[ma vérification C] : +
     `gcc .\verification.c .\algos\sobriete76.c -o verification` +
     `.\verification.exe`
+
+- Pour reproduire mon analyse des efficacités des algorithmes Java :
+. Lancez link:analyse/Analyse.java[mon analyse Java]
 
 === Références
 
