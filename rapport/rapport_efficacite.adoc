@@ -11,7 +11,7 @@ efficacite46.py ❌ +
 Efficacite135.java ✅
 
 === Test d'efficacité
-[Attributes]
+[cols="1,1,1"]
 |===
 |Longueur de chaine |Efficacite29.java |Efficacite135.java
 
