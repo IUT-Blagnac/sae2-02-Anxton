@@ -20,7 +20,7 @@ public class Verification {
             if (!Efficacite29.erase("  Cou cou  J M  B").equals("  Coucou  JM  B")) {
                 ok = false;
             } 
-            if (!Efficacite29.erase(" a a a a ").equals("aaaa")) {
+            if (!Efficacite29.erase(" a a a a   ").equals("aaaa   ")) {
                 ok = false;
             } 
             if (ok) {
@@ -49,7 +49,7 @@ public class Verification {
             if (!Efficacite135.erase("  Cou cou  J M  B").equals("  Coucou  JM  B")) {
                 ok = false;
             } 
-            if (!Efficacite135.erase(" a a a a ").equals("aaaa")) {
+            if (!Efficacite135.erase(" a a a a   ").equals("aaaa   ")) {
                 ok = false;
             } 
             if (ok) {
@@ -78,7 +78,8 @@ public class Verification {
             if (!Sobriete92.erase("  Cou cou  J M  B").equals("  Coucou  JM  B")) {
                 ok = false;
             } 
-            if (!Sobriete92.erase(" a a a a ").equals("aaaa")) {
+            if (!Sobriete92.erase(" a a a a   ").equals("aaaa   ")) {
+                System.out.println(Sobriete92.erase(" a a a a   "));
                 ok = false;
             } 
             if (ok) {

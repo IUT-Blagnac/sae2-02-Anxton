@@ -13,33 +13,31 @@ link:../analyse/Verification.java[Programme de vérification Java] +
 link:../analyse/verification.c[Programme de vérification C] +
 
 sobriete76.c ❌ +
-Sobriete92.java ✅ +
+Sobriete92.java ❌ +
 sobriete102.py ✅
 
 === Ressources
 
-- Sobriete92.java  +
-+regex
-
 - sobriete102.py +
 +regex
 
-Les deux algorithmes sont équivalents.
 
 == Classement
+
+Seulement l'algorithme 102 fonctionne parmi les 3.
 
 [cols="1,2,2"]
 |===
 |Evaluation |Algorithme |Sobriété
 
-|5
-|Sobriete92.java
-|{plus}
 
 |5
 |sobriete102.py
 |{plus}
 
+|1
+|Sobriete92.java
+|Ne passe pas les tests
 
 |1
 |sobriete76.c

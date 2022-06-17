@@ -14,7 +14,7 @@ def test(erase):
         if erase('   06   07 65 19 70 ') != '   06   07651970': ok = False
         if erase(' 666, the number of the beast  ') != '666,thenumberofthebeast  ': ok = False
         if erase('  Cou cou  J M  B') != '  Coucou  JM  B': ok = False
-        if erase(' a a a a ') != 'aaaa': ok = False
+        if erase(' a a a a   ') != 'aaaa   ': ok = False
         if ok: print('✅') # Fonctionne !
         else: print('❌') # Ne fonctionne pas comme attendu
     except Exception as e:
