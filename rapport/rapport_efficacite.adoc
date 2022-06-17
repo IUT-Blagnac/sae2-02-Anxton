@@ -64,13 +64,13 @@ Efficacite135.java ✅
 
 |1
 |efficacite21.py
-3+|ne passe pas les tests
+3+|Ne passe pas les tests
 
 
 
 |1
 |efficacite46.py
-3+|ne passe pas les tests
+3+|Ne passe pas les tests
 
 
 
