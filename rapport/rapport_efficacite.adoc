@@ -12,3 +12,6 @@ Efficacite135.java ✅
 
 === Test d'efficacité
 
+Pour une chaine de 200000 caracteres :
+Efficacite29.java 2.5 secondes +
+Efficacite135.java 8.2 secondes
