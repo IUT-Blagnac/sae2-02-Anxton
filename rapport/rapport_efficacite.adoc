@@ -11,7 +11,61 @@ efficacite46.py ❌ +
 Efficacite135.java ✅
 
 === Test d'efficacité
+[Attributes]
+|===
+|Longueur de chaine |Efficacite29.java |Efficacite135.java
 
-Pour une chaine de 200000 caracteres :
-Efficacite29.java 2.5 secondes +
-Efficacite135.java 8.2 secondes
+|500 caractères
+|[green]*1 ms*
+|10 ms
+
+|50000 caractères
+|200 ms
+|[green]*120 ms*
+
+|100000 caractères
+|0.53 seconde
+|[green]*0.42 seconde*
+
+|500000 caractères
+|[green]*6.93 secondes*
+|8.18 secondes
+
+|1000000 caractères
+|[green]*28.75 secondes*
+|33.23 secondes
+
+
+|===
+
+== Classement
+
+[cols="1,2,2,2,2"]
+|===
+|Evaluation |Algorithme |Temps d'exécution sur chaines courtes |Temps d'exécution sur chaines moyennes |Temps d'exécution sur chaines longues
+
+|5
+|Efficacite29.java
+|++
+|-
+|+
+
+|4
+|Efficacite135.java
+|-
+|+
+|-
+
+|1
+|efficacite21.py
+3+|ne passe pas les tests
+
+
+
+|1
+|efficacite46.py
+3+|ne passe pas les tests
+
+
+
+|===
